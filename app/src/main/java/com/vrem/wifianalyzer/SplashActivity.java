@@ -22,6 +22,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
+/**
+ * 程序的入口点在这里。（参见AndroidManifest.xml文件）
+ * 这个活动一闪而过，只是用来启动MainActivity的。
+ */
 public class SplashActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
